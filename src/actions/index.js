@@ -1,6 +1,6 @@
-function selectBook(book) {
-	console.log(`A book has ben selected: ${book.title}`)
+export function selectBook(book) {
+	return{
+		type: 'BOOK_SELECTED',
+		payload: book 
+	};
 }
-
-
-export default selectBook;
