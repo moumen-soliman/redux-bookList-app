@@ -4,5 +4,5 @@ export default () => {
 		{ title: 'Harry Potter' },
 		{ title: 'The Dark Tower' },
 		{ title: 'Elqouent Ruby' }
-	]
+	];
 }
